@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./assets/style.css">
+<title>Title</title>
+</head>
+  <body>
+    <section class="hero is-info is-small">
+        <div class="hero-body has-text-centered">
+          <p class="title is-size-1">
+            Weather Dashboard
+          </p>
+        </div>
+      </section>
+      
+      <div class="columns">
+        <div class="column is-4">
+            <form class="box">
+                <div class="field">
+                    <label class="label is-size-2">Seach for a City:</label>
+                <div class="control">
+                <input id="city" class="input" type="email" placeholder="City">
+                </div>
+                </div>
+                <button id="searchBtn" class="button is-info is-rounded is-fullwidth">Search</button>
+            </form>    
+        </div>
+        <div class="column">
+          <p class="has-text-centered box is-size-3">Today's Weather</p>
+          <div class="columns box">
+            <div class="column is-half">
+              <p class="bd-notification is-danger">50%</p>
+            </div>
+            <div class="column">
+              <p class="">Auto</p>
+            </div>
+            <div class="column">
+              <p class="">Auto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
