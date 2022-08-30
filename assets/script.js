@@ -12,7 +12,7 @@ var apiLink1 = "https://api.openweathermap.org/data/3.0/onecall?lat="
 var apiLink2 = "&lon="
 var apiLink3 = "&appid=fc9ecab221936900d677aad55c3a08e3"
 var locationLink1 = "http://api.openweathermap.org/geo/1.0/direct?q="
-var locationLink2 = "&appid=appid=fc9ecab221936900d677aad55c3a08e3"
+var locationLink2 = "&appid=fc9ecab221936900d677aad55c3a08e3"
 
 searchBtnEl.addEventListener("click",searchWeather)
 
